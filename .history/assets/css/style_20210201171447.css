@@ -1609,7 +1609,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #d9232d;
+  color: #ffffff;
 }
 
 .blog .entry .entry-footer .cats {
@@ -2067,7 +2067,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 1px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
 }
