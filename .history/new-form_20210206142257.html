@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const container = document.getElementById('container');
+
+        signUpButton.addEventListener('click', () => {
+            container.classList.add("right-panel-active");
+        });
+
+        signInButton.addEventListener('click', () => {
+            container.classList.remove("right-panel-active");
+        });
+    });
+    </script>
+<h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+ <footer>
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>HEADQUATERS:</h3>
+              <p>
+                39300, Civic Center Drive Suite <br />#160 Fremont, CA 94538
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/vertisystem" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/vertisystem/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/vertisystem" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h5>CORPORATE OFFICE:</h5>
+              <p>
+                7251 W. Lake Mead, <br />Suite 300 Las Vegas, NV 89128
+              </p>
+            </br>
+              <h5>India Delivery Center:</h5>
+              <p>
+                STP-II 1st floor, Crystal IT Park, Khandwa Road<br />Indore (M.P.) 452001
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>Sales:<a href="mailto:business@vertisystem.com">business@vertisystem.com</a></li>
+              <li>Support:<a href="mailto:support@vertisystem.com">support@vertisystem.com</a></li>
+              <li>Career:<a href="mailto:jobs@vertisystem.com">jobs@vertisystem.com</a></li>
+              <li>General Info:<a href = "mailto:info@vertisystem.com">info@vertisystem.com</a></li>
+              <li>USA :<a href = "#">+1 (510) 794-8099</a><br /></li>
+              <li>India : <a href = "#">+91 731-2972377</a><br /></li>
+              <li>Fax : <a href = "#">(510) 474-1440</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Site map</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#">Engineering</a></li>
+              <li><a href="#">DevOps</a></li>
+              <li><a href="#">Data and Analytics</a></li>
+              <li><a href="#">IT & Infrastructure</a></li>
+              <li><a href="#">Video Library</a></li>
+              <li><a href="https://vertisystem.com/">Company Portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+      </div>
+       <div style="bottom: 0;left: 0;right: 0;text-align: center;position: relative; z-index: 999;">
+          <p>
+            Created with <i class="bx bxs-heart" style='color:#fb0606'></i> by
+            <a target="_blank" href="https://supersaiyane.github.io/gurpreetsingh/">Gurpreet singh</a>
+          </p>
+       </div>
+  </footer><!-- End Footer -->
+</html>
