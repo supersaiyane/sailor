@@ -16,10 +16,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.change__cursor{
-  cursor: url('../img/brain.png') !important;
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -187,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
-  right: 15px;
+  right: 5px;
 }
 
 @media (max-width: 1366px) {

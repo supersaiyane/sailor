@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .change__cursor{
-  cursor: url('../img/brain.png') !important;
+  cursor: url('../img/brainfavicon.ico');
 }
 
 /*--------------------------------------------------------------

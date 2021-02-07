@@ -1,0 +1,47 @@
+Users:
+- Picture
+- Name
+- EmpID(Primary Key)
+- Email
+- Designation/Role
+- Department(foregin Key)
+- Introduction
+- Twitter_Account
+- Facebook_Account
+- Dev.to_Account
+- Linkedin_Account
+- Medium_Account
+- website
+- Technologies working on
+- intrests
+- Contact me for
+- Currently working on
+- Currently learning
+
+Department:
+- Departmentname
+- DepartmentID(primary key)
+
+Posts:
+- EmpID(Foregin Key)
+- PostID(Primary Key)
+- tagID(Foregin Key)
+- Department(foregin Key)
+- Header picture
+- Header title
+- PostBody
+
+PostReviews
+- EmpID(Foregin Key)
+- PostID(Foregin Key)
+- Department(foregin Key)
+- Review
+- IsReplied
+- RepliedTo
+
+Tags:
+- tagName 
+- tagID(primary Key)
+
+Subscription
+- SubscriptionID()

@@ -16,10 +16,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.change__cursor{
-  cursor: url('../img/brain.png') !important;
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -180,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down .drop-down > a {
-  padding-right: 35px;
+  padding-right: 5px;
 }
 
 .nav-menu .drop-down .drop-down > a:after {
