@@ -1,0 +1,87 @@
+Users_Profile:
+- Big_Picture
+- Avatar
+- Name
+- username
+- Password
+- EmpID(Primary Key)
+- Email
+- Designation/Role
+- Department(foregin Key)
+- Introduction
+- Twitter_Account
+- Facebook_Account
+- Dev.to_Account
+- Linkedin_Account
+- Medium_Account
+- website
+- Technologies working on
+- intrests
+- Contact me for
+- Currently working on
+- Currently learning
+- Lastlogin
+- isActive
+- CreatedOn
+
+Department:
+- Departmentname
+- DepartmentID(primary key)
+
+Posts:
+- EmpID(Foregin Key)
+- PostID(Primary Key)
+- tagID(Foregin Key)
+- Department(foregin Key)
+- Headerpicture
+- postPictures
+- Header title
+- PostBody
+- createdon
+- updatedon
+- publishedon
+- ispublished
+
+PostReviews
+- EmpID(Foregin Key)
+- PostID(Foregin Key)
+- Department(foregin Key)
+- Review
+- IsReplied
+- RepliedTo
+- title
+- createdon
+- publishedon
+
+Tags:
+- tagName 
+- tagID(primary Key)
+
+Subscription:
+- SubscriptionID(primary Key)
+- UserID(foregin Key)
+- issubscribed
+
+Logs:
+- ID
+- Message
+- Source
+- Time
+- AgentID
+- TagName
+- LogLevel
+- Count
+- FileSize
+- Platform
+
+Appreciations:
+ - AppreciationsID(primary Key) 
+ - UserID(foregin Key)
+ - BlogID(foregin Key)
+ - ProfileID(foregin Key)
+ - CreatedOn
+ - GivenBy(UserID,foregin Key)
+ - IsBlogStared
+ - IsPostStared
+ - IsProfileStared
+
