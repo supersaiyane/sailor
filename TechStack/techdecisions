@@ -8,7 +8,15 @@ Database Graph - cayley
 Healthcheck API -
 Monitoring - jaeger/Prometheus/Grafanna
 
+ISTIO - Maybe
+
 Commenting - Commento / Isso
+
+Services 
+ - frontend
+ - Backend
+ - Notification
+ - Logging
 
 
 
