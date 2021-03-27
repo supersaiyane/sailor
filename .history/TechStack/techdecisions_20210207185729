@@ -1,9 +1,0 @@
-frontend - React.js
-Backend - Express.js
-Logging framework - 
-Logging Scalability - Kafka log appender to output the log messages to a Kafka cluster. From the Kafka cluster, the message will be ingested by Logstash. While ingesting the log messages into Logstash, we can transform the information as required. The output of Logstash will be stashed to Elasticsearch. Using the Kibana visualization tool, we can search the indexed logs with the parameters we logged. 
-Database General - Mysql
-Database Logging - ClickHouse
-Database Graph - cayley
-Healthcheck API and Monitoring
-
