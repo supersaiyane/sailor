@@ -16,3 +16,9 @@ jobs:
         password: ${{secrets.ftp_password}}
         server-dir: techlogger/
         port: 21
+        exclude: .git*
+          - .git*/**
+          -  **/.git*/**
+          - node_modules/**
+          - node_modules/**/*
+          - .history/*
